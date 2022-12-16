@@ -1,0 +1,31 @@
+Run in terminal:
+
+python [Link to file client.py] [URL want to download]
+
+
+Testing download file:
+Type : Content-length
+
+http://example.com/
+http://example.com/index.html
+http://web.stanford.edu/dept/its/support/techtraining/techbriefing-media/Intro_Net_91407.ppt
+http://web.stanford.edu/class/cs224w/slides/01-intro.pdf
+http://web.stanford.edu/class/cs231a/project.html
+
+Type: Tranfer-Encoding: chunked
+
+http://www.google.com/
+http://www.bing.com/
+http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx
+
+Type: Download Folder using Multiple requests
+
+http://web.stanford.edu/class/cs142/lectures/
+http://web.stanford.edu/class/cs224w/slides/
+http://web.stanford.edu/class/cs231a/course_notes/
+http://web.stanford.edu/class/cs142/lectures/
+
+Multiple connection
+
+You can test 2 or more URL with different host 
+python [Link to file client.py] [URL1] [URL2] [URL..]
